@@ -8,4 +8,4 @@ emp as (
      select * from {{ref('emp_id')}}
 
 )
-select * from emp,dept where emp.id=dept.id
+select dept.id from emp,dept where emp.id=dept.id
