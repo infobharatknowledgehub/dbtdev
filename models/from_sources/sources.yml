@@ -1,0 +1,8 @@
+sources:
+  - name: TEST
+    database: TEST 
+    schema: TEST
+    tables:
+      - name: EMP_DEPT
+
+  
